@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:src="@drawable/back"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите код из E-mail"
+            android:textSize="17dp"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center">
+            <EditText
+
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/code"
+                android:height="58dp"
+                android:layout_marginLeft="65dp"
+                android:inputType="numberPassword"
+                />
+            <EditText
+
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/code"
+                android:height="58dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberPassword"
+                />
+            <EditText
+
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/code"
+                android:height="58dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberPassword"
+                />
+            <EditText
+
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@drawable/code"
+                android:height="58dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberPassword"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Отправить код повторно можно\nбудет через 100 лет"
+            android:textAlignment="center"
+            android:textColor="#939396"/>
+
+    </LinearLayout>
+</LinearLayout>
